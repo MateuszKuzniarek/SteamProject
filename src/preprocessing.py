@@ -111,7 +111,7 @@ def create_genres_dict(data_set_file, dict_file_path):
     number_of_games = len(games_set)
     i = 0
     for game in games_set:
-        if i%100 == 0:
+        if i % 100 == 0:
             print(str(i) + '/' + str(number_of_games))
         try:
             if game in app_dict:
